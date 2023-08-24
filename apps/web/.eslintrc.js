@@ -9,7 +9,7 @@ module.exports = {
       files: ["*.graphql"],
       extends: "plugin:@graphql-eslint/operations-recommended",
       parserOptions: {
-        operations: "./app/**/*.graphql",
+        operations: "./app/**/*.tsx",
         schema: "https://swapi-graphql.netlify.app/.netlify/functions/index",
       },
     },
