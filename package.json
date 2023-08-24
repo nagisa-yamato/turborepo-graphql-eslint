@@ -4,14 +4,25 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "generate": "graphql-codegen"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/client-preset": "^4.1.0",
+    "@parcel/watcher": "^2.2.0",
     "eslint": "^8.47.0",
+    "eslint-config-custom": "workspace:^",
     "prettier": "^3.0.2",
+    "ts-node": "^10.9.1",
     "tsconfig": "workspace:*",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^5.1.6"
   },
   "packageManager": "pnpm@8.6.10",
-  "name": "turborepo-graphql-eslint"
+  "name": "turborepo-graphql-eslint",
+  "dependencies": {
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "graphql": "^16.8.0"
+  }
 }

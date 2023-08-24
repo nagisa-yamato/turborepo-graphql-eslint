@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "codegen": "workspace:*",
+    "graphql": "^16.8.0",
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ui": "workspace:*"
   },
   "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.20.1",
     "@next/eslint-plugin-next": "^13.4.19",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",

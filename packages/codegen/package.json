@@ -1,0 +1,9 @@
+{
+  "name": "codegen",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    "./web": "./web/index.ts",
+    "./docs": "./docs/index.ts"
+  }
+}
