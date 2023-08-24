@@ -23,6 +23,7 @@
   "name": "turborepo-graphql-eslint",
   "dependencies": {
     "@graphql-typed-document-node/core": "^3.2.0",
-    "graphql": "^16.8.0"
+    "graphql": "^16.8.0",
+    "graphql-config": "^5.0.2"
   }
 }
